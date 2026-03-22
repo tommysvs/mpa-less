@@ -1,0 +1,37 @@
+footer {
+    background-color: @bg-dark;
+    color: @text-light;
+    padding: 24px 16px;
+    margin-top: 48px;
+    border-top: 1px solid fade(@accent-color, 35%);
+}
+
+footer section {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: @accent-color;
+}
+
+footer p {
+    font-size: 14px;
+    color: fade(@text-light, 86%);
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+footer p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 24px 16px;
+    }
+}
